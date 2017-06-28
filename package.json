@@ -1,0 +1,14 @@
+{
+  "name": "chopchop-web",
+  "version": "1.0.0",
+  "description": "chopchop web applicatioin",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depromeet/chopchop-web.git"
+  },
+  "author": "hspark"
+}
