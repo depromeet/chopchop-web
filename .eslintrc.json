@@ -20,8 +20,11 @@
         "constructor-super": "warn",
         "valid-typeof": "warn"
     },
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended"
+    ],
     "plugins": [
         "flowtype"
-    ],
-    "extends": "airbnb"
+    ]
 }

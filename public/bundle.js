@@ -22409,7 +22409,7 @@ module.exports = ReactDOMInvalidARIAHook;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _react = __webpack_require__(49);
@@ -22419,13 +22419,12 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
-  return _react2.default.createElement(
-    'h1',
-    null,
-    'Hello React Skeleton'
-  );
+    return _react2.default.createElement(
+        'h1',
+        null,
+        'Hello World'
+    );
 };
-
 exports.default = App;
 
 /***/ })
