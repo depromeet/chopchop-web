@@ -17,7 +17,13 @@ module.exports = {
   module: {
     rules: [{
       test: /\.(js|jsx)?$/,
-      loader: ['flowtype-loader', 'eslint-loader'],
+      loader: 'flowtype-loader',
+      enforce: 'pre',
+      exclude: /(node_modules|.vscode)/,
+    },
+    {
+      test: /\.(js|jsx)?$/,
+      loader: 'eslint-loader',
       enforce: 'pre',
       exclude: /(node_modules|.vscode)/,
     }, {
