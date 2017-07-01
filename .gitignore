@@ -1,3 +1,5 @@
 /node_modules
 /.vscode
 /public/bundle.js
+/.next
+npm-debug.log
