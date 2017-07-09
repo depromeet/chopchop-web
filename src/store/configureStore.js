@@ -7,7 +7,7 @@ const composeEnhancers = isDevelopment ? (window.__REDUX_DEVTOOLS_EXTENSION_COMP
 
 const configureStore = (initialState) => {
      const sagaMiddleware = createSagaMiddleware();
-    const store = createStore(initialState, composeEnhancers(
+    const store = createStore(reducers, initialState, composeEnhancers(
         applyMiddleware(sagaMiddleware)
     ));
      //sagaMiddleware.run(Sagas);
