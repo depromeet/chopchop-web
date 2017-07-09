@@ -4,11 +4,9 @@
     "react",
     "es2015",
     "stage-2",
-    "flow",
-    "next/babel"
+    "flow"
   ],
   "plugins": [
-    "transform-runtime",
-    "wildcard"
+    "transform-runtime"
   ]
 }

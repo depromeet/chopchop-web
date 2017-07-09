@@ -27,7 +27,7 @@ const style = (
     }
 
     .active {
-        background - color: #4CAF50;
+     background - color: #4CAF50;
     }
 `}</style>);
 
