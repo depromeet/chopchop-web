@@ -1,8 +1,8 @@
 import React from 'react';
 import RoomsContainer from '../containers/RoomsContainer';
 
-const Rooms = () => (
+const RoomList = () => (
   <RoomsContainer />
 );
 
-export default Rooms;
+export default RoomList;
