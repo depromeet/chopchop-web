@@ -54,6 +54,7 @@
     "redux-actions": "^2.2.1",
     "redux-pender": "^1.0.24",
     "redux-saga": "^0.15.4",
+    "semantic-ui-react": "^0.71.2",
     "serialize-javascript": "^1.3.0",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.3",
@@ -66,7 +67,7 @@
   "scripts": {
     "start": "cross-env NODE_PATH=src node scripts/start.js",
     "start:server": "node server",
-    "deploy:server":"pm2 start server --name webServer",
+    "deploy:server": "pm2 start server --name webServer",
     "build": "cross-env NODE_PATH=src node scripts/build.js",
     "build:server": "cross-env NODE_PATH=src node scripts/build.server.js",
     "test": "node scripts/test.js --env=jsdom"
